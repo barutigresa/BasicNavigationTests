@@ -18,6 +18,7 @@ public class TitleVerification3 {
             if(urls.get(i).toLowerCase().contains(driver.getTitle().replace(" ", "").toLowerCase()))
             {
                 System.out.println(driver.getTitle() + " PASSED");
+                System.out.println(driver.getCurrentUrl());
             }
             else
             {

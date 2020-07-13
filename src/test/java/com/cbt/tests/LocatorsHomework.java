@@ -195,12 +195,13 @@ public class LocatorsHomework {
 
     }
 
+
     public static void main(String[] args) throws InterruptedException {
-        AmazonTest();
-        WikipediaTest();
-        GoogleTest();
-        EbayTest();
-        VyTrackTest();
+        //AmazonTest();
+        //WikipediaTest();
+        //GoogleTest();
+        //EbayTest();
+        //VyTrackTest();
         VyTrackShortcutTest();
 
     }
